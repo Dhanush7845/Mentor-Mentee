@@ -1,0 +1,1089 @@
+export const seedData = {
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "System Administrator",
+      "email": "admin@mentorconnect.io",
+      "role": "admin",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "department": "Administration",
+      "createdAt": "2026-09-01T08:00:00Z",
+      "lastLogin": "2026-10-29T11:00:00Z"
+    },
+    {
+      "id": "mentor-1",
+      "name": "Dr. Sarah Jenkins",
+      "email": "dr.sarah@mentorconnect.io",
+      "role": "mentor",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150",
+      "department": "Computer Science & AI",
+      "createdAt": "2026-09-10T09:30:00Z",
+      "lastLogin": "2026-10-29T10:15:00Z"
+    },
+    {
+      "id": "mentor-2",
+      "name": "Marcus Vance",
+      "email": "marcus.vance@mentorconnect.io",
+      "role": "mentor",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "department": "Software Engineering",
+      "createdAt": "2026-09-12T14:00:00Z",
+      "lastLogin": "2026-10-28T16:20:00Z"
+    },
+    {
+      "id": "mentor-3",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@mentorconnect.io",
+      "role": "mentor",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150",
+      "department": "Human-Computer Interaction",
+      "createdAt": "2026-09-15T11:20:00Z",
+      "lastLogin": "2026-10-27T09:00:00Z"
+    },
+    {
+      "id": "mentor-4",
+      "name": "David Okonkwo",
+      "email": "david.okonkwo@mentorconnect.io",
+      "role": "mentor",
+      "status": "pending",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+      "department": "Cloud & Distributed Systems",
+      "createdAt": "2026-10-25T15:45:00Z",
+      "lastLogin": "2026-10-25T15:45:00Z"
+    },
+    {
+      "id": "mentee-1",
+      "name": "Alex Chen",
+      "email": "alex.chen@mentorconnect.io",
+      "role": "mentee",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+      "department": "Computer Science & AI",
+      "createdAt": "2026-09-18T10:00:00Z",
+      "lastLogin": "2026-10-29T11:20:00Z"
+    },
+    {
+      "id": "mentee-2",
+      "name": "Priya Patel",
+      "email": "priya.patel@mentorconnect.io",
+      "role": "mentee",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+      "department": "Data Science & Analytics",
+      "createdAt": "2026-09-20T12:30:00Z",
+      "lastLogin": "2026-10-28T14:10:00Z"
+    },
+    {
+      "id": "mentee-3",
+      "name": "Jordan Taylor",
+      "email": "jordan.taylor@mentorconnect.io",
+      "role": "mentee",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+      "department": "Human-Computer Interaction",
+      "createdAt": "2026-10-22T08:15:00Z",
+      "lastLogin": "2026-10-29T09:40:00Z"
+    },
+    {
+      "id": "mentee-4",
+      "name": "Samira Khan",
+      "email": "samira.khan@mentorconnect.io",
+      "role": "mentee",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+      "department": "Cloud & Distributed Systems",
+      "createdAt": "2026-10-24T16:00:00Z",
+      "lastLogin": "2026-10-26T18:00:00Z"
+    }
+  ],
+  "mentor_profiles": [
+    {
+      "id": "mprof-1",
+      "userId": "mentor-1",
+      "title": "Principal AI Scientist & Research Lead",
+      "organization": "DeepMind Research Labs",
+      "yearsExperience": 12,
+      "expertise": [
+        "Machine Learning",
+        "PyTorch",
+        "Deep Learning",
+        "LLM Evaluation",
+        "Research Publishing",
+        "System Design"
+      ],
+      "bio": "PhD in Computer Science from Stanford. Leading research in foundation models and efficient fine-tuning. Passionate about empowering aspiring AI researchers and engineers.",
+      "maxMentees": 3,
+      "currentMenteesCount": 1,
+      "availability": {
+        "days": [
+          "Monday",
+          "Thursday"
+        ],
+        "hours": "16:00 - 19:00 EST",
+        "format": "Online"
+      },
+      "linkedInUrl": "https://linkedin.com/in/sarah-jenkins-ai",
+      "githubUrl": "https://github.com/dr-sarah-jenkins",
+      "rating": 4.95,
+      "totalSessionsHeld": 48
+    },
+    {
+      "id": "mprof-2",
+      "userId": "mentor-2",
+      "title": "Staff Distributed Systems Architect",
+      "organization": "Stripe Infrastructure",
+      "yearsExperience": 14,
+      "expertise": [
+        "Distributed Systems",
+        "Kubernetes",
+        "Go",
+        "High Throughput",
+        "Cloud Architecture",
+        "Kafka"
+      ],
+      "bio": "Built core payment routing infrastructure handling billions in volume. Enjoys deep dives into concurrency, reliability, and backend system scalability.",
+      "maxMentees": 3,
+      "currentMenteesCount": 1,
+      "availability": {
+        "days": [
+          "Tuesday",
+          "Friday"
+        ],
+        "hours": "17:00 - 20:00 PST",
+        "format": "Either"
+      },
+      "linkedInUrl": "https://linkedin.com/in/marcus-vance",
+      "githubUrl": "https://github.com/mvance-eng",
+      "rating": 4.88,
+      "totalSessionsHeld": 36
+    },
+    {
+      "id": "mprof-3",
+      "userId": "mentor-3",
+      "title": "Head of Product Experience & Design",
+      "organization": "Linear Technologies",
+      "yearsExperience": 10,
+      "expertise": [
+        "Design Systems",
+        "UX Architecture",
+        "Product Strategy",
+        "Figma",
+        "User Research"
+      ],
+      "bio": "Crafting minimalist, keyboard-first software experiences. Mentors students in translating user psychology into seamless interactions.",
+      "maxMentees": 4,
+      "currentMenteesCount": 0,
+      "availability": {
+        "days": [
+          "Wednesday",
+          "Saturday"
+        ],
+        "hours": "14:00 - 18:00 CET",
+        "format": "Online"
+      },
+      "linkedInUrl": "https://linkedin.com/in/elena-rostova-ux",
+      "githubUrl": "https://github.com/erostova",
+      "rating": 5.0,
+      "totalSessionsHeld": 29
+    },
+    {
+      "id": "mprof-4",
+      "userId": "mentor-4",
+      "title": "VP of Cloud Infrastructure",
+      "organization": "Databricks Platform",
+      "yearsExperience": 15,
+      "expertise": [
+        "Cloud Architecture",
+        "AWS",
+        "Big Data",
+        "Engineering Leadership",
+        "Security"
+      ],
+      "bio": "Veteran cloud architect guiding career advancement for engineers transitioning into leadership and principal roles.",
+      "maxMentees": 2,
+      "currentMenteesCount": 0,
+      "availability": {
+        "days": [
+          "Saturday"
+        ],
+        "hours": "10:00 - 13:00 EST",
+        "format": "Online"
+      },
+      "linkedInUrl": "https://linkedin.com/in/david-okonkwo-cloud",
+      "githubUrl": "https://github.com/dokonkwo",
+      "rating": 4.9,
+      "totalSessionsHeld": 0
+    }
+  ],
+  "mentee_profiles": [
+    {
+      "id": "cprof-1",
+      "userId": "mentee-1",
+      "phone": "+1 (555) 234-8901",
+      "college": "Stanford School of Engineering",
+      "academicYear": "Final Year (Senior)",
+      "studentId": "CS-2026-9041",
+      "currentDegree": "B.S. in Computer Science (AI Track)",
+      "graduationYear": 2026,
+      "currentSemester": "8th Semester",
+      "resumeUrl": "/uploads/resumes/alex-chen-resume.pdf",
+      "resumeName": "Alex_Chen_ML_Resume_2026.pdf",
+      "previousInternships": "ML Research Intern at FAIR (Summer 2025); Software Intern at Scale AI (Summer 2024)",
+      "workExperience": "Undergrad Research Assistant at Stanford NLP Lab (2024 - Present)",
+      "academicProjects": "Developed lightweight KV-cache compression library with 40% memory reduction and <1% perplexity delta.",
+      "achievements": "Winner of Stanford AI Hackathon 2025; Published at NeurIPS 2025 Workshop on Efficient Systems.",
+      "skills": [
+        "Python",
+        "PyTorch",
+        "C++",
+        "CUDA Basics",
+        "Git",
+        "Linux",
+        "Transformers",
+        "NumPy"
+      ],
+      "softSkills": [
+        "Critical Thinking",
+        "Technical Communication",
+        "Research Synthesis",
+        "Presentation"
+      ],
+      "targetSkills": [
+        "Distributed Training (DDP/FSDP)",
+        "Kernel Optimization (Triton)",
+        "LLM Evaluation",
+        "System Design"
+      ],
+      "interests": [
+        "Generative Modeling",
+        "Open Source AI",
+        "Compiler Tech",
+        "Competitive Chess",
+        "Cycling"
+      ],
+      "learningStyle": "Hands-on project based with paper reading sessions",
+      "languages": [
+        "English (Fluent)",
+        "Mandarin (Conversational)"
+      ],
+      "shortTermGoals": "Complete benchmarking study on reasoning models and draft arXiv submission before graduation.",
+      "longTermGoals": "Become a Senior ML Research Scientist and contribute foundational models in open science.",
+      "targetRole": "Machine Learning Research Engineer / Applied Scientist",
+      "careerChallenges": "Transitioning from research prototypes to bulletproof distributed production clusters.",
+      "areasNeedingSupport": [
+        "Distributed training optimizations",
+        "System design interviews",
+        "Paper publication strategy"
+      ],
+      "preferredFrequency": "Bi-weekly",
+      "meetingFormat": "Online",
+      "preferredCommunication": "In-app chat & Scheduled Video Calls",
+      "expectations": "Rigorous technical reviews, architectural critique on projects, guidance on top AI lab interview prep.",
+      "portfolioUrl": "https://alexchen.dev",
+      "githubUrl": "https://github.com/alexchen-ml",
+      "linkedinUrl": "https://linkedin.com/in/alexchen-ai",
+      "additionalComments": "Excited to accelerate my career under Dr. Jenkins mentorship!",
+      "onboardingCompleted": true,
+      "profileVisibility": "mentor_only",
+      "documentSharing": true
+    },
+    {
+      "id": "cprof-2",
+      "userId": "mentee-2",
+      "phone": "+1 (555) 456-7890",
+      "college": "UC Berkeley Division of Computing",
+      "academicYear": "Junior (3rd Year)",
+      "studentId": "DS-2026-4412",
+      "currentDegree": "B.S. in Data Science",
+      "graduationYear": 2027,
+      "currentSemester": "6th Semester",
+      "resumeUrl": "/uploads/resumes/priya-patel-resume.pdf",
+      "resumeName": "Priya_Patel_Data_Eng.pdf",
+      "previousInternships": "Data Analyst Intern at DoorDash (Summer 2025)",
+      "workExperience": "Peer Tutor for Database Systems (Fall 2025)",
+      "academicProjects": "Real-time clickstream processing engine using Kafka and ClickHouse.",
+      "achievements": "Dean Honor Roll 2024 & 2025",
+      "skills": [
+        "Python",
+        "SQL",
+        "Pandas",
+        "PostgreSQL",
+        "Tableau",
+        "Airflow"
+      ],
+      "softSkills": [
+        "Problem Solving",
+        "Data Storytelling",
+        "Team Collaboration"
+      ],
+      "targetSkills": [
+        "Distributed Systems",
+        "Kafka Streaming",
+        "Kubernetes",
+        "Go"
+      ],
+      "interests": [
+        "Large Scale Analytics",
+        "Distributed Storage",
+        "Marathon Running"
+      ],
+      "learningStyle": "Structured architectural roadmaps with code reviews",
+      "languages": [
+        "English",
+        "Hindi",
+        "Gujarati"
+      ],
+      "shortTermGoals": "Secure high-impact Data Engineering internship at top tech company.",
+      "longTermGoals": "Staff Infrastructure Data Architect.",
+      "targetRole": "Data Engineer / Platform Engineer",
+      "careerChallenges": "Bridging SQL analytics into low-latency distributed pipeline architecture.",
+      "areasNeedingSupport": [
+        "Streaming systems design",
+        "Kubernetes cluster deployment"
+      ],
+      "preferredFrequency": "Weekly",
+      "meetingFormat": "Online",
+      "preferredCommunication": "In-app chat",
+      "expectations": "Guidance on streaming architecture best practices and mock design interviews.",
+      "portfolioUrl": "https://priyapatel.io",
+      "githubUrl": "https://github.com/priyapatel-data",
+      "linkedinUrl": "https://linkedin.com/in/priya-patel-ds",
+      "onboardingCompleted": true,
+      "profileVisibility": "public_program",
+      "documentSharing": true
+    },
+    {
+      "id": "cprof-3",
+      "userId": "mentee-3",
+      "phone": "+1 (555) 890-1234",
+      "college": "Carnegie Mellon School of Design",
+      "academicYear": "Sophomore (2nd Year)",
+      "studentId": "HCI-2026-7788",
+      "currentDegree": "B.S. in Human-Computer Interaction",
+      "graduationYear": 2028,
+      "currentSemester": "4th Semester",
+      "resumeUrl": "",
+      "resumeName": "",
+      "previousInternships": "Junior UI Design Intern at local agency",
+      "workExperience": "",
+      "academicProjects": "Re-imagined accessible interface for medical telemetry monitors.",
+      "achievements": "Best UX Prototype Award CMU 2025",
+      "skills": [
+        "Figma",
+        "UI Design",
+        "Wireframing",
+        "User Research",
+        "HTML/CSS"
+      ],
+      "softSkills": [
+        "Empathy",
+        "Visual Communication",
+        "User Interviewing"
+      ],
+      "targetSkills": [
+        "Design Systems",
+        "Micro-interactions",
+        "Product Strategy",
+        "Design Tokens"
+      ],
+      "interests": [
+        "Design Systems",
+        "Typography",
+        "Accessible Computing",
+        "Photography"
+      ],
+      "learningStyle": "Visual feedback and portfolio critique",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "shortTermGoals": "Build world-class product design portfolio and secure design fellowship.",
+      "longTermGoals": "Lead Product Designer at design-led company.",
+      "targetRole": "Product Designer / UX Architect",
+      "careerChallenges": "Connecting aesthetics with quantitative user engagement metrics.",
+      "areasNeedingSupport": [
+        "Portfolio presentation",
+        "Design system scalability"
+      ],
+      "preferredFrequency": "Bi-weekly",
+      "meetingFormat": "Online",
+      "preferredCommunication": "In-app chat",
+      "expectations": "Design critiques on portfolio case studies.",
+      "portfolioUrl": "https://jordantaylor.design",
+      "githubUrl": "https://github.com/jtaylor-design",
+      "linkedinUrl": "https://linkedin.com/in/jordan-taylor-ux",
+      "onboardingCompleted": true,
+      "profileVisibility": "public_program",
+      "documentSharing": true
+    },
+    {
+      "id": "cprof-4",
+      "userId": "mentee-4",
+      "phone": "+1 (555) 345-6789",
+      "college": "Georgia Tech College of Computing",
+      "academicYear": "Senior",
+      "studentId": "CS-2026-1122",
+      "currentDegree": "B.S. in Computer Science (Systems)",
+      "graduationYear": 2026,
+      "currentSemester": "7th Semester",
+      "resumeUrl": "",
+      "resumeName": "",
+      "previousInternships": "DevOps Intern at Fintech Startup",
+      "workExperience": "Cloud Lab Administrator",
+      "academicProjects": "Automated multi-region cluster failover using Terraform and Consul.",
+      "achievements": "AWS Certified Solutions Architect Associate",
+      "skills": [
+        "Linux",
+        "Go",
+        "Docker",
+        "AWS Basics",
+        "Python",
+        "Terraform"
+      ],
+      "softSkills": [
+        "Analytical Rigor",
+        "Self-directed Learning"
+      ],
+      "targetSkills": [
+        "Kubernetes Operators",
+        "eBPF Observability",
+        "Service Mesh (Istio)"
+      ],
+      "interests": [
+        "Cloud Native",
+        "Linux Internals",
+        "Hiking"
+      ],
+      "learningStyle": "Self-paced building with milestone checkpoints",
+      "languages": [
+        "English",
+        "Urdu"
+      ],
+      "shortTermGoals": "Secure full-time Site Reliability / Cloud Engineer position.",
+      "longTermGoals": "Principal Infrastructure Engineer.",
+      "targetRole": "Site Reliability Engineer / Cloud Native Engineer",
+      "careerChallenges": "Deepening knowledge in Linux kernel tracing and eBPF.",
+      "areasNeedingSupport": [
+        "Production troubleshooting drills",
+        "Infrastructure interview prep"
+      ],
+      "preferredFrequency": "Weekly",
+      "meetingFormat": "Either",
+      "preferredCommunication": "In-app chat",
+      "expectations": "Review cloud architecture case studies and operational war stories.",
+      "portfolioUrl": "https://samirakhan.cloud",
+      "githubUrl": "https://github.com/samira-cloud",
+      "linkedinUrl": "https://linkedin.com/in/samirakhan-sre",
+      "onboardingCompleted": true,
+      "profileVisibility": "mentor_only",
+      "documentSharing": true
+    }
+  ],
+  "assignments": [
+    {
+      "id": "assign-1",
+      "mentorId": "mentor-1",
+      "menteeId": "mentee-1",
+      "status": "active",
+      "matchScore": 96,
+      "matchReasons": [
+        "98% Domain Synergy: Machine Learning & Deep Learning",
+        "Direct Career Goal Alignment: AI Research Engineer",
+        "Identical Preferred Cadence: Bi-weekly Online Sessions",
+        "Mentor Expertise covers 100% of Mentee Target Skills"
+      ],
+      "assignedAt": "2026-10-01T10:00:00Z",
+      "assignedBy": "System Administrator",
+      "notes": "High-potential match confirmed by Admin."
+    },
+    {
+      "id": "assign-2",
+      "mentorId": "mentor-2",
+      "menteeId": "mentee-2",
+      "status": "active",
+      "matchScore": 92,
+      "matchReasons": [
+        "Strong Infrastructure & Data Engineering overlap",
+        "Target Skills Match: Kafka, Distributed Systems & Go",
+        "Compatible schedule and availability"
+      ],
+      "assignedAt": "2026-10-05T14:30:00Z",
+      "assignedBy": "System Administrator",
+      "notes": "Assigned during Fall Cohort onboarding."
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-1",
+      "mentorId": "mentor-1",
+      "menteeId": "mentee-1",
+      "title": "PyTorch Optimization & Distributed Data Parallel (DDP) Deep Dive",
+      "category": "Courses",
+      "description": "Study multi-GPU gradient synchronization, bucket caps, and overlap between backward pass and all-reduce communications.",
+      "reason": "Critical prerequisite for training state-of-the-art models on compute clusters.",
+      "learningOutcome": "Ability to debug and optimize multi-GPU training throughput with minimal synchronization overhead.",
+      "difficulty": "Advanced",
+      "priority": "high",
+      "estimatedHours": 25,
+      "dueDate": "2026-11-15",
+      "resourceUrl": "https://pytorch.org/tutorials/intermediate/ddp_tutorial.html",
+      "supportingDocs": "PyTorch_DDP_Internals_Slides.pdf",
+      "relatedSkill": "Distributed Training (DDP/FSDP)",
+      "status": "in_progress",
+      "clarificationNotes": "",
+      "createdAt": "2026-10-08T09:00:00Z",
+      "updatedAt": "2026-10-18T14:00:00Z"
+    },
+    {
+      "id": "rec-2",
+      "mentorId": "mentor-1",
+      "menteeId": "mentee-1",
+      "title": "Contribute to vLLM or Hugging Face TGI Open Source Inference Engine",
+      "category": "Projects",
+      "description": "Select an open good-first-issue or performance benchmark issue in vLLM. Implement continuous batching or PagedAttention profiling.",
+      "reason": "Demonstrable open-source contribution to high-throughput inference serving is the single best differentiator on your resume.",
+      "learningOutcome": "Hands-on mastery of production-grade C++/Python inference engines and community code review experience.",
+      "difficulty": "Challenging",
+      "priority": "medium",
+      "estimatedHours": 45,
+      "dueDate": "2026-12-05",
+      "resourceUrl": "https://github.com/vllm-project/vllm",
+      "supportingDocs": "vLLM_Architecture_Guide.md",
+      "relatedSkill": "Kernel Optimization (Triton)",
+      "status": "accepted",
+      "clarificationNotes": "Alex inquired about starting with CPU kernels; Dr. Sarah recommended starting with high-level Python scheduler issues first.",
+      "createdAt": "2026-10-12T11:00:00Z",
+      "updatedAt": "2026-10-14T10:30:00Z"
+    },
+    {
+      "id": "rec-3",
+      "mentorId": "mentor-1",
+      "menteeId": "mentee-1",
+      "title": "Mock Technical Architecture: Distributed Vector Search at 100M Scale",
+      "category": "Interview preparation",
+      "description": "Prepare an end-to-end system design for indexing, querying, and updating 100M embeddings with <15ms p99 latency constraint.",
+      "reason": "Standard tier-1 AI lab technical screen challenge.",
+      "learningOutcome": "Clear articulation of trade-offs between HNSW graph indices, IVF-PQ quantization, and hardware caching.",
+      "difficulty": "Advanced",
+      "priority": "urgent",
+      "estimatedHours": 10,
+      "dueDate": "2026-11-08",
+      "resourceUrl": "https://github.com/alexchen-ml/system-design-ai",
+      "supportingDocs": "Vector_Search_Evaluation_Rubric.pdf",
+      "relatedSkill": "System Design",
+      "status": "published",
+      "clarificationNotes": "",
+      "createdAt": "2026-10-22T16:00:00Z",
+      "updatedAt": "2026-10-22T16:00:00Z"
+    },
+    {
+      "id": "rec-4",
+      "mentorId": "mentor-1",
+      "menteeId": "mentee-1",
+      "title": "Foundational Papers in Efficient Transformers & FlashAttention",
+      "category": "Books and learning resources",
+      "description": "Annotate FlashAttention (Dao et al., 2022) and FlashAttention-2. Analyze IO-aware SRAM tiling and kernel fusion.",
+      "reason": "Essential theoretical foundation for understanding modern attention kernel speedups.",
+      "learningOutcome": "Rigorous mathematical and hardware awareness of GPU memory hierarchies.",
+      "difficulty": "Intermediate",
+      "priority": "medium",
+      "estimatedHours": 15,
+      "dueDate": "2026-10-25",
+      "resourceUrl": "https://arxiv.org/abs/2205.14135",
+      "supportingDocs": "FlashAttention_Paper_Notes.pdf",
+      "relatedSkill": "Deep Learning",
+      "status": "completed",
+      "clarificationNotes": "Reviewed in Session #2. Alex demonstrated comprehensive understanding of SRAM vs HBM memory bandwidth.",
+      "createdAt": "2026-10-02T10:00:00Z",
+      "updatedAt": "2026-10-25T17:00:00Z"
+    },
+    {
+      "id": "rec-5",
+      "mentorId": "mentor-2",
+      "menteeId": "mentee-2",
+      "title": "Apache Kafka Event Streaming Architecture Bootcamp",
+      "category": "Certifications",
+      "description": "Complete hands-on certification modules on topic partitioning, exactly-once semantics, and consumer group rebalancing.",
+      "reason": "Core foundation for production data engineering roles.",
+      "learningOutcome": "Demonstrated mastery of event streaming topologies.",
+      "difficulty": "Intermediate",
+      "priority": "high",
+      "estimatedHours": 30,
+      "dueDate": "2026-11-20",
+      "resourceUrl": "https://developer.confluent.io",
+      "supportingDocs": "Kafka_Operations_CheatSheet.pdf",
+      "relatedSkill": "Kafka Streaming",
+      "status": "in_progress",
+      "clarificationNotes": "",
+      "createdAt": "2026-10-10T12:00:00Z",
+      "updatedAt": "2026-10-10T12:00:00Z"
+    }
+  ],
+  "development_plans": [
+    {
+      "id": "plan-1",
+      "menteeId": "mentee-1",
+      "mentorId": "mentor-1",
+      "title": "Frontier AI Research Engineer Roadmap (Fall 2026)",
+      "overview": "Structured 16-week curriculum designed to elevate Alex from undergraduate ML practitioner to top-tier frontier lab candidate with publication and open-source credentials.",
+      "milestones": [
+        {
+          "id": "ms-1",
+          "title": "Milestone 1: Mathematical Foundations & Kernel Primitives",
+          "targetDate": "2026-10-25",
+          "status": "completed",
+          "completionPercent": 100,
+          "description": "Master attention mechanics, IO complexity, and PyTorch internals.",
+          "linkedRecommendations": [
+            "rec-4"
+          ],
+          "linkedTasks": [
+            "task-1"
+          ]
+        },
+        {
+          "id": "ms-2",
+          "title": "Milestone 2: Distributed Training & Large-Scale Systems",
+          "targetDate": "2026-11-20",
+          "status": "in_progress",
+          "completionPercent": 65,
+          "description": "Implement multi-GPU DDP pipelines, benchmark vector databases, and profile memory.",
+          "linkedRecommendations": [
+            "rec-1",
+            "rec-3"
+          ],
+          "linkedTasks": [
+            "task-2",
+            "task-4"
+          ]
+        },
+        {
+          "id": "ms-3",
+          "title": "Milestone 3: Open-Source Contribution & arXiv Preprint",
+          "targetDate": "2026-12-15",
+          "status": "upcoming",
+          "completionPercent": 25,
+          "description": "Publish benchmark paper and submit upstream PR to vLLM.",
+          "linkedRecommendations": [
+            "rec-2"
+          ],
+          "linkedTasks": [
+            "task-3"
+          ]
+        },
+        {
+          "id": "ms-4",
+          "title": "Milestone 4: Interview Simulations & Offer Negotiation",
+          "targetDate": "2027-01-20",
+          "status": "upcoming",
+          "completionPercent": 10,
+          "description": "Rigorous mock interviews and top lab referrals.",
+          "linkedRecommendations": [],
+          "linkedTasks": []
+        }
+      ],
+      "updatedAt": "2026-10-25T17:00:00Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "menteeId": "mentee-1",
+      "mentorId": "mentor-1",
+      "title": "Implement Multi-Head Self-Attention from Scratch",
+      "description": "Build a standalone PyTorch module with explicit Q, K, V projections, scaled dot-product calculation, causal masking, and output linear layer. Include unit tests asserting numerical equivalence with torch.nn.MultiheadAttention.",
+      "priority": "high",
+      "dueDate": "2026-10-24",
+      "status": "completed",
+      "evidenceUrl": "https://github.com/alexchen-ml/attention-from-scratch",
+      "submissionNotes": "All unit tests passing (tolerance 1e-6). Benchmarked memory usage across sequence lengths up to 4096 tokens.",
+      "feedback": "Excellent implementation! Clean code structure and thoughtful tensor broadcasting.",
+      "completedAt": "2026-10-24T18:30:00Z",
+      "createdAt": "2026-10-10T11:00:00Z"
+    },
+    {
+      "id": "task-2",
+      "menteeId": "mentee-1",
+      "mentorId": "mentor-1",
+      "title": "Benchmark Vector Search Latency vs Recall on 1M Embeddings",
+      "description": "Construct reproducible benchmark comparing Qdrant and Milvus across HNSW hyperparameters (M=16, 32, 64; efConstruction=128, 256). Generate latency-vs-recall trade-off plots.",
+      "priority": "high",
+      "dueDate": "2026-11-03",
+      "status": "in_progress",
+      "evidenceUrl": "",
+      "submissionNotes": "",
+      "feedback": "",
+      "createdAt": "2026-10-18T10:00:00Z"
+    },
+    {
+      "id": "task-3",
+      "menteeId": "mentee-1",
+      "mentorId": "mentor-1",
+      "title": "Refactor Resume with STAR-format Impact Metrics",
+      "description": "Update CV bullets for FAIR internship and research projects. Ensure every point quantifies performance (e.g., speedup, accuracy delta, memory saved).",
+      "priority": "medium",
+      "dueDate": "2026-11-09",
+      "status": "pending",
+      "evidenceUrl": "",
+      "submissionNotes": "",
+      "feedback": "",
+      "createdAt": "2026-10-22T14:00:00Z"
+    },
+    {
+      "id": "task-4",
+      "menteeId": "mentee-1",
+      "mentorId": "mentor-1",
+      "title": "Profile Memory Leaks in PyTorch Distributed Worker Processes",
+      "description": "Run PyTorch memory snapshot profiler on multi-process training loop. Identify uncollected tensor references across epochs.",
+      "priority": "urgent",
+      "dueDate": "2026-10-27",
+      "status": "overdue",
+      "evidenceUrl": "",
+      "submissionNotes": "",
+      "feedback": "",
+      "createdAt": "2026-10-15T09:30:00Z"
+    },
+    {
+      "id": "task-5",
+      "menteeId": "mentee-2",
+      "mentorId": "mentor-2",
+      "title": "Design End-to-End Real-Time Log Pipeline on Kafka",
+      "description": "Create Docker Compose topology with 3 Kafka brokers, Zookeeper/KRaft, and a Go consumer writing into PostgreSQL.",
+      "priority": "high",
+      "dueDate": "2026-11-12",
+      "status": "in_progress",
+      "evidenceUrl": "",
+      "submissionNotes": "",
+      "feedback": "",
+      "createdAt": "2026-10-16T15:00:00Z"
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal-1",
+      "menteeId": "mentee-1",
+      "title": "Secure ML Research Engineer Offer at Tier-1 Frontier Lab",
+      "type": "long_term",
+      "targetDate": "2026-06-30",
+      "status": "in_progress",
+      "progressPercent": 72,
+      "notes": "On track with strong research portfolio and mentor endorsements."
+    },
+    {
+      "id": "goal-2",
+      "menteeId": "mentee-1",
+      "title": "Submit First-Author Benchmark Study to arXiv & Open-Source Community",
+      "type": "short_term",
+      "targetDate": "2026-12-15",
+      "status": "in_progress",
+      "progressPercent": 60,
+      "notes": "Data collection 70% complete; drafting introduction and methodology."
+    },
+    {
+      "id": "goal-3",
+      "menteeId": "mentee-1",
+      "title": "Master GPU Profiling Tools (Nsight Systems & PyTorch Profiler)",
+      "type": "short_term",
+      "targetDate": "2026-11-20",
+      "status": "in_progress",
+      "progressPercent": 85,
+      "notes": "Completed initial profiling labs; task 4 in progress."
+    }
+  ],
+  "sessions": [
+    {
+      "id": "sess-1",
+      "mentorId": "mentor-1",
+      "menteeId": "mentee-1",
+      "title": "Bi-Weekly Progress & Systems Architecture Sync",
+      "date": "2026-11-02",
+      "time": "17:00 - 18:00 EST",
+      "durationMinutes": 60,
+      "meetingLink": "https://meet.google.com/mentorconnect-sarah-alex",
+      "agenda": "1. Review Vector DB benchmark methodology\\n2. Discuss multi-GPU memory bottlenecks\\n3. Schedule mock interview session",
+      "status": "scheduled",
+      "mentorNotes": "",
+      "actionItems": [],
+      "menteeFeedback": "",
+      "rating": null,
+      "createdAt": "2026-10-20T10:00:00Z"
+    },
+    {
+      "id": "sess-2",
+      "mentorId": "mentor-1",
+      "menteeId": "mentee-1",
+      "title": "Mid-Point Review: Transformer Architecture & FlashAttention",
+      "date": "2026-10-18",
+      "time": "16:30 - 17:30 EST",
+      "durationMinutes": 60,
+      "meetingLink": "https://meet.google.com/mentorconnect-sarah-alex",
+      "agenda": "Evaluate attention paper annotations, review multi-head attention code submission, plan DDP milestones.",
+      "status": "completed",
+      "mentorNotes": "Alex presented an outstanding walkthrough of SRAM tiling in FlashAttention.",
+      "actionItems": [
+        "Complete vector benchmark script",
+        "Profile memory footprint"
+      ],
+      "menteeFeedback": "Dr. Sarah provided world-class insights into GPU hardware memory bottlenecks!",
+      "rating": 5,
+      "createdAt": "2026-10-05T09:00:00Z"
+    },
+    {
+      "id": "sess-3",
+      "mentorId": "mentor-1",
+      "menteeId": "mentee-1",
+      "title": "Program Kickoff & Goal Setting Session",
+      "date": "2026-10-04",
+      "time": "16:00 - 17:00 EST",
+      "durationMinutes": 60,
+      "meetingLink": "https://meet.google.com/mentorconnect-sarah-alex",
+      "agenda": "Welcome, career aspiration alignment, review current skills, formulate 16-week development plan.",
+      "status": "completed",
+      "mentorNotes": "Agreed on bi-weekly Thursday cadence.",
+      "actionItems": [
+        "Read FlashAttention paper",
+        "Implement attention from scratch"
+      ],
+      "menteeFeedback": "Super welcoming and inspiring. Excited to start!",
+      "rating": 5,
+      "createdAt": "2026-10-01T11:00:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "senderId": "mentor-1",
+      "receiverId": "mentee-1",
+      "content": "Hi Alex! Welcome to the MentorConnect program. I reviewed your profile and current projects\u2014very impressive work at FAIR. Let us schedule our kickoff session for this Thursday.",
+      "sentAt": "2026-10-01T10:15:00Z",
+      "readAt": "2026-10-01T10:30:00Z"
+    },
+    {
+      "id": "msg-2",
+      "senderId": "mentee-1",
+      "receiverId": "mentor-1",
+      "content": "Thank you so much Dr. Jenkins! I am honored to be working with you. Thursday at 4 PM EST works perfectly for me.",
+      "sentAt": "2026-10-01T10:32:00Z",
+      "readAt": "2026-10-01T10:45:00Z"
+    },
+    {
+      "id": "msg-3",
+      "senderId": "mentor-1",
+      "receiverId": "mentee-1",
+      "content": "I reviewed your attention module implementation on GitHub. The unit testing is rock solid. In your benchmark, pay close attention to the memory overhead when batch size exceeds 32.",
+      "sentAt": "2026-10-25T11:20:00Z",
+      "readAt": "2026-10-25T11:45:00Z"
+    },
+    {
+      "id": "msg-4",
+      "senderId": "mentee-1",
+      "receiverId": "mentor-1",
+      "content": "Good catch! I noticed the memory spiked due to intermediate activation tensor allocations. I am refactoring it using in-place operations now.",
+      "sentAt": "2026-10-25T12:00:00Z",
+      "readAt": "2026-10-25T14:10:00Z"
+    },
+    {
+      "id": "msg-5",
+      "senderId": "mentor-1",
+      "receiverId": "mentee-1",
+      "content": "Great. Let us discuss the vector database benchmarking plan during our upcoming session on Monday.",
+      "sentAt": "2026-10-28T16:00:00Z",
+      "readAt": "2026-10-28T16:15:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "mentee-1",
+      "title": "New Recommendation Published",
+      "message": "Dr. Sarah Jenkins published a new recommendation: Mock Technical Architecture Interview.",
+      "category": "recommendation",
+      "read": false,
+      "createdAt": "2026-10-22T16:01:00Z",
+      "actionLink": "/mentee/recommendations"
+    },
+    {
+      "id": "notif-2",
+      "userId": "mentee-1",
+      "title": "Upcoming Session Reminder",
+      "message": "Bi-Weekly Progress & Systems Architecture Sync is scheduled for Nov 2, 2026 at 17:00 EST.",
+      "category": "session",
+      "read": false,
+      "createdAt": "2026-10-28T09:00:00Z",
+      "actionLink": "/mentee/sessions"
+    },
+    {
+      "id": "notif-3",
+      "userId": "mentee-1",
+      "title": "Task Overdue Notice",
+      "message": "Task Profile Memory Leaks in PyTorch Distributed Worker Processes was due on Oct 27.",
+      "category": "task",
+      "read": true,
+      "createdAt": "2026-10-28T00:00:00Z",
+      "actionLink": "/mentee/tasks"
+    },
+    {
+      "id": "notif-4",
+      "userId": "mentee-1",
+      "title": "Platform Announcement",
+      "message": "Fall 2026 Mentorship Showcase & Networking Night is scheduled for Nov 28.",
+      "category": "announcement",
+      "read": true,
+      "createdAt": "2026-10-25T10:00:00Z",
+      "actionLink": "/mentee/dashboard"
+    },
+    {
+      "id": "notif-5",
+      "userId": "mentor-1",
+      "title": "Task Submitted for Review",
+      "message": "Alex Chen submitted code evidence for task: Implement Multi-Head Self-Attention.",
+      "category": "task",
+      "read": true,
+      "createdAt": "2026-10-24T18:31:00Z",
+      "actionLink": "/mentor/tasks"
+    },
+    {
+      "id": "notif-6",
+      "userId": "admin-1",
+      "title": "Mentor Application Pending Review",
+      "message": "David Okonkwo submitted a mentor registration application for Cloud & Distributed Systems.",
+      "category": "system",
+      "read": false,
+      "createdAt": "2026-10-25T15:46:00Z",
+      "actionLink": "/admin/mentor-approval"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "Fall 2026 Mentorship Showcase & Networking Night",
+      "content": "Join us on Friday, November 28, 2026 at 6:00 PM EST for our annual showcase. Mentees will present capstone roadmaps and research projects to industry leads and alumni.",
+      "targetAudience": "all",
+      "authorId": "admin-1",
+      "authorName": "System Administrator",
+      "priority": "high",
+      "publishedAt": "2026-10-25T10:00:00Z"
+    },
+    {
+      "id": "ann-2",
+      "title": "Cloud Compute Grants & Research Credits Available",
+      "content": "We have partnered with cloud providers to offer up to ,500 in GPU/compute credits for mentees working on machine learning, distributed systems, or large data projects. Apply via your mentor.",
+      "targetAudience": "mentees",
+      "authorId": "admin-1",
+      "authorName": "System Administrator",
+      "priority": "medium",
+      "publishedAt": "2026-10-18T14:00:00Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "audit-1",
+      "actorId": "admin-1",
+      "actorName": "System Administrator",
+      "action": "ASSIGN_MENTOR",
+      "target": "Alex Chen (mentee-1) -> Dr. Sarah Jenkins (mentor-1)",
+      "details": "Approved automated match with 96% compatibility score.",
+      "timestamp": "2026-10-01T10:00:00Z",
+      "ip": "192.168.1.1"
+    },
+    {
+      "id": "audit-2",
+      "actorId": "admin-1",
+      "actorName": "System Administrator",
+      "action": "APPROVE_MENTOR",
+      "target": "Marcus Vance (mentor-2)",
+      "details": "Verified credentials and approved mentor account.",
+      "timestamp": "2026-10-05T14:00:00Z",
+      "ip": "192.168.1.1"
+    },
+    {
+      "id": "audit-3",
+      "actorId": "admin-1",
+      "actorName": "System Administrator",
+      "action": "CREATE_ANNOUNCEMENT",
+      "target": "Fall 2026 Mentorship Showcase",
+      "details": "Broadcasted announcement to all platform users.",
+      "timestamp": "2026-10-25T10:00:00Z",
+      "ip": "192.168.1.1"
+    },
+    {
+      "id": "audit-4",
+      "actorId": "mentor-1",
+      "actorName": "Dr. Sarah Jenkins",
+      "action": "PUBLISH_RECOMMENDATION",
+      "target": "rec-3 (Mock Technical Architecture)",
+      "details": "Created and published new recommendation for Alex Chen.",
+      "timestamp": "2026-10-22T16:00:00Z",
+      "ip": "192.168.1.42"
+    }
+  ],
+  "mentor_notes": [
+    {
+      "id": "note-1",
+      "mentorId": "mentor-1",
+      "menteeId": "mentee-1",
+      "note": "Alex has shown remarkable dedication in understanding the exact memory layout of FlashAttention kernels. In the top 5% of mentees I have advised. Plan to introduce him to colleagues at Anthropic and Google DeepMind once Milestone 2 is finalized.",
+      "createdAt": "2026-10-19T10:00:00Z"
+    }
+  ],
+  "progress_reports": [
+    {
+      "id": "prep-1",
+      "menteeId": "mentee-1",
+      "period": "October 2026 (Weeks 1 - 3)",
+      "summary": "Completed deep dive into attention mechanics and implemented full self-attention module in PyTorch with verified test suites. Began setting up vector search benchmarking environment.",
+      "achievements": "Passed all unit tests for self-attention module; finished FlashAttention paper annotations.",
+      "challenges": "Handling PyTorch multi-process tensor memory sharing without leaks.",
+      "evidenceLinks": "https://github.com/alexchen-ml/attention-from-scratch\\nhttps://alexchen.dev/notes/flash-attention",
+      "mentorFeedback": "Terrific progress Alex. Keep up this momentum into the distributed benchmarks.",
+      "submittedAt": "2026-10-24T19:00:00Z"
+    }
+  ],
+  "departments": [
+    "Computer Science & AI",
+    "Software Engineering",
+    "Human-Computer Interaction",
+    "Data Science & Analytics",
+    "Cloud & Distributed Systems",
+    "Cyber Security & Information Assurance"
+  ],
+  "skills_taxonomy": [
+    "Python",
+    "PyTorch",
+    "C++",
+    "Go",
+    "Distributed Systems",
+    "Kubernetes",
+    "Docker",
+    "AWS",
+    "Kafka",
+    "SQL",
+    "PostgreSQL",
+    "System Design",
+    "Figma",
+    "UI Design",
+    "Design Systems",
+    "User Research",
+    "Linux",
+    "LLM Evaluation",
+    "Deep Learning",
+    "Data Pipelines",
+    "React",
+    "TypeScript"
+  ],
+  "program_settings": {
+    "cohortName": "Fall 2026 Academic Cohort",
+    "startDate": "2026-09-15",
+    "endDate": "2027-01-31",
+    "registrationOpen": true,
+    "requireMentorApproval": true,
+    "maxMenteesPerMentor": 4,
+    "autoMatchingEnabled": true,
+    "dataRetentionMonths": 24,
+    "anonymizeAlumni": false
+  }
+};

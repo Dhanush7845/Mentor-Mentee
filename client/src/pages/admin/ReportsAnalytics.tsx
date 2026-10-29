@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+﻿import React, { useEffect, useState } from 'react';
 import { 
   BarChart3, Download, TrendingUp, Users, CheckCircle, 
   Award, FileSpreadsheet, RefreshCw, Printer
@@ -33,7 +33,7 @@ export const ReportsAnalytics: React.FC = () => {
   }, []);
 
   const handleExportCSV = () => {
-    const token = localStorage.getItem('token');
+    const token = localStorage.getItem('mentor_connect_token');
     window.open(`/api/admin/reports/export-csv?token=${token}`, '_blank');
     showToast('Exporting cohort report CSV...', 'info');
   };
@@ -193,3 +193,4 @@ export const ReportsAnalytics: React.FC = () => {
     </div>
   );
 };
+

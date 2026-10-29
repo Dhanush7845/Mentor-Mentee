@@ -1,4 +1,5 @@
-const BASE_URL = '/api';
+const API_HOST = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
+const BASE_URL = `${API_HOST}/api`;
 
 function getHeaders(token?: string | null) {
   const currentToken = token || localStorage.getItem('mentor_connect_token');
